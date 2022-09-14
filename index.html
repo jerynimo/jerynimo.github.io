@@ -7,11 +7,136 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&family=Texturina:ital,opsz,wght@0,12..72,700;1,12..72,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Hello, world!</title>
+    <title>Jery's GUitar Lessons</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+  <header>
+
+    <!-- the nav bar -->
+    <nav class="navbar fixed-top  row posnav">
+      <div class="container-fluid col-8">
+        <h1 class="display-1 c1 fonttex">Jery's GUitar Lessons</h1>
+      </div>
+      <ul class="nav nav-tabs col fonttex-2">
+        <li class="nav-item">
+          <a class="nav-link  h3 c3" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle c3 h3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">LESSONS</a>
+          <ul class="dropdown-menu c4 fontstan">
+            <li><a class="dropdown-item c6" href="#">Beginner</a></li>
+            <li><a class="dropdown-item c6" href="#">Rock out!</a></li>
+            <li><a class="dropdown-item c6" href="#">Want to sherd!</a></li>
+            <li><hr class="dropdown-divider c6"></li>
+            <li><a class="dropdown-item c6" href="#">Sign in</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link c3 h3 shadow-lg" href="#">ABOUT ME</a>
+        </li>
+      </ul>
+    </nav>
+    
+   
+  
+  
+  <!-- the carsoel -->
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+            <img class="size" src="https://images.unsplash.com/photo-1446057032654-9d8885db76c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80" class="d-block w-100" alt="...">
+             </div>
+          <div class="carousel-item">
+            <img class="size"src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="size"src="https://images.unsplash.com/photo-1514649923863-ceaf75b7ec00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="d-block w-100" alt="...">
+          </div>
+        <div class="carousel-item">
+          <img class="size"src="https://images.unsplash.com/photo-1421217336522-861978fdf33a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      </div>
+
+    </header>
+
+      <!-- the cards -->
+
+      <div class="card-group">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title c3">Awesome Lessons!</h5>
+            <p class="card-text c6">" Lessons are clear and to the point!" - Carlos V. </p>
+
+            <!--star rating-->
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>            
+
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title c3">Lots of Great tips!</h5>
+            <p class="card-text c6">"I thought I knew a lot already, boy was I wrong. These lessons helped tighten up my skills! - Boby G."</p>
+
+                        <!--star rating-->
+                        <span class="fa fa-star c2"></span>
+                        <span class="fa fa-star c2"></span>
+                        <span class="fa fa-star c2"></span>
+                        <span class="fa fa-star c2"></span>
+                        <span class="fa fa-star c2"></span>            
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title c3">Join Now!</h5>
+            <p class="card-text c6">" If you want to learn to play already, join now! You won't regret it! - Kelly J. </p>
+
+            <!--star rating-->
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+            <span class="fa fa-star c2"></span>
+
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- the footer -->
+
+          <footer>
+
+              <p class="text-center c1 h3 fonttex"> Jery's GUitar lessons inc.</p>
+
+
+          </footer>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -23,5 +148,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+   </body>
 </html>
